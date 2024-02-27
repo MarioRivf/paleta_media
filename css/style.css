@@ -92,13 +92,14 @@ body {
 }
 
 .hero-title {
-    font-size: 3.2rem;
+    font-size: 70px;
+    margin-top: 0;
 }
 
 .hero_subtitle {
-    font-size: 2rem;
+    font-size: 50px;
     font-weight: 300;
-    margin: 15px 0;
+    margin: 5px 0;
 }
 
 .hero-cta {
