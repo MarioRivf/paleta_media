@@ -28,7 +28,7 @@ body {
 
 .hero {
     height: 100vh;
-    background-image: var(--background), url('../img/hro.jpg');
+    background-image: var(--background), url('../img/hero.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -46,7 +46,15 @@ body {
     height: 70px;
     align-items: center;
     font-weight: 700;
+    font-size: 20px;
 }
+
+.cont-imagen-empresas {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 
 .nav-footer {
     font-weight: 300;
@@ -127,6 +135,7 @@ body {
 .presentation-copy {
     width: 80%;
     margin: 0 auto;
+    font-size: 25px;
 }
 
 .presentation-cta {
