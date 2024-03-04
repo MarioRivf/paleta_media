@@ -8,9 +8,24 @@
     --boton-padding: 20px 40px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family:'Raleway', sans-serif;
+    background-image: url('../img/marca_agua.png');
+    background-repeat: repeat;
 }
+
+#about,
+#hability,
+#project{
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente blanco */
+    padding: 30px; /* Ajusta el padding según sea necesario */
+    border-radius: 10px; /* Opcional: agrega bordes redondeados */
+}
+
 
 .container {
     width: 90%;
@@ -59,6 +74,7 @@ body {
 .nav-footer {
     font-weight: 300;
     justify-content: flex-start;
+    margin-top: 50px;
 }
 
 .nav-items {
@@ -141,6 +157,7 @@ body {
     width: 80%;
     margin: 0 auto;
     font-size: 25px;
+    text-align: justify;
 }
 
 .presentation-cta {
@@ -180,6 +197,7 @@ body {
     line-height: 1.5;
     font-weight: 300;
     font-size: 25px;
+    text-align: justify;
 }
 
 /*Projects*/
@@ -316,11 +334,12 @@ body {
 
 
 .footer-grid {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 20px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    height: 10px;
 }
+
 
 .footer-title {
     font-weight: 400;
@@ -336,7 +355,9 @@ body {
 }
 
 .footer-container-icons {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60px;
     height: 60px;
     color: #fff;
@@ -349,9 +370,6 @@ body {
     color: inherit;
     font-size: 30px;
     text-decoration: none;
-    line-height: 60px;
-    display: inline-block;
-    margin: 0 auto;
 }
 
 .fab.footer-icon {
@@ -397,10 +415,6 @@ body {
     }
 
     /*About*/
-
-    .presentation-copy {
-        width: 100%;
-    }
 
     .about {
         grid-template-columns: 1fr;
